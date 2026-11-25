@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>search an element</title>
+</head>
+<body>
+    <script>
+        let s=[45,8,6,31,74];
+        let k=6;
+        let find=false;
+
+        for (let i=0;i<s.length;i++){
+            if (k===s[i]){
+                find=true;
+                document.write("Element found at index: " + i);
+                break;
+            }
+        }
+
+        if (find===false){
+            document.write("Element not found");
+        }
+    </script>
+</body>
+</html>
